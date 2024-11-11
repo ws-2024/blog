@@ -1,2 +1,2 @@
 # blog
-blog test
+hi, here is my blog.
