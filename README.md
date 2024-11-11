@@ -1,1 +1,1 @@
-hello hexo next blog
+Hi, here is my blog.
