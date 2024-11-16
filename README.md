@@ -1,2 +1,2 @@
 # blog
-hi, here is my blog.
+blog source code.
