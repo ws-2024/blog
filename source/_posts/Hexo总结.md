@@ -1072,7 +1072,7 @@ hexo clean
 ### 找错
 
 ```shell
-npm fund
+npm audit
 ```
 
 ## 总结
