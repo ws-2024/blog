@@ -5,5 +5,5 @@ comments: false
 ---
 
 
-A Web Developer And Freelancer
+Web Developer And Freelancer
 
