@@ -17,8 +17,8 @@
       <strong>{{ __('post.copyright.post_link') + __('symbol.colon') }}</strong>
       {{ next_url(page.post_link, page.post_link, {title: page.title}) }}
     {%- else %}
-      <strong>{{ __('post.copyright.link') + __('symbol.colon') }}</strong>
-      {{ next_url(config.url + config.root + page.path, config.url + config.root + page.path, {title: page.title}, true) }}
+      <strong>{{ __('post.copyright.link') + __('symbol.colon') }}1</strong>
+      {{ next_url(page.permalink, page.permalink, {title: page.title}, true) }}
     {%- endif %}
   </li>
   <li class="post-copyright-license">
