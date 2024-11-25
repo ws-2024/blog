@@ -1301,7 +1301,7 @@ pre code {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #ff9fff;
+  background: #9d9047;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
@@ -2079,7 +2079,7 @@ pre code {
   color: var(--link-color);
   display: inline-block;
   position: relative;
-  width: 100%;
+  max-width: 100%;
 }
 .posts-expand .post-title-link::before {
   background: var(--link-color);
