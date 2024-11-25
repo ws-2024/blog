@@ -11,16 +11,13 @@ body {
 //博客内容透明化
 //文章内容的透明度设置
 if (hexo-config('motion.transition.post_block')) {
-  .post-block, .comments.giscus-container {
+  .post-block, .comments.giscus-container, .pagination {
     background: rgba(255,255,255,0.9);
     opacity: 0.9;
     border-radius: 10px;
     padding: 40px;
     -webkit-box-shadow: 0 0 5px rgba(202, 203, 203, .5);
     -moz-box-shadow: 0 0 5px rgba(202, 203, 204, .5);
-  }
-  .pagination, .comments {
-    opacity: 0;
   }
 
   +tablet() {

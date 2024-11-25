@@ -50,7 +50,7 @@ NexT.utils = {
       }
       if (navigator.clipboard) {
         // https://caniuse.com/mdn-api_clipboard_writetext
-        navigator.clipboard.writeText(code).then(() => {
+        navigator.clipboard.writeText(code.trim()).then(() => {
           button.querySelector('i').className = 'fa fa-check-circle fa-fw';
         }, () => {
           button.querySelector('i').className = 'fa fa-times-circle fa-fw';

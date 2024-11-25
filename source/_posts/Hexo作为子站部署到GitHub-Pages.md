@@ -39,7 +39,7 @@ date: 2024-11-17 18:27:06
 
 ### 创建主仓库
 
-- 这个可以部署一个引导页（随意发挥）
+- 可以部署一个引导页
 
 `<你的用户名>.github.io`
 
@@ -145,5 +145,3 @@ creative_commons:
 ```
 
 修改完之后链接可以正常显示
-
-已经提了 [issue](https://github.com/next-theme/hexo-theme-next/issues/848)，后续再跟进吧！
