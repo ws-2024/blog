@@ -46,11 +46,11 @@ NexT.utils = {
     button.addEventListener('click', () => {
       if (!code) {
         const lines = element.querySelector('.code') || element.querySelector('code');
-        code = lines.innerText;
+        code = lines.innerText.trim();
       }
       if (navigator.clipboard) {
         // https://caniuse.com/mdn-api_clipboard_writetext
-        navigator.clipboard.writeText(code.trim()).then(() => {
+        navigator.clipboard.writeText(code).then(() => {
           button.querySelector('i').className = 'fa fa-check-circle fa-fw';
         }, () => {
           button.querySelector('i').className = 'fa fa-times-circle fa-fw';
