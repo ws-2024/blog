@@ -13,6 +13,9 @@ date: 2024-12-14 14:33:44
 ## 查看
 
 
+> 重装系统，备份激活密钥，可以用到
+
+
 ### 方法一
 
 - CMD 命令
@@ -36,4 +39,4 @@ wmic path softwarelicensingservice get OA3xOriginalProductKey
 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform
 ```
 
-> 右侧的 `BackupProductKeyDefault` 的值就是你的【备份产品密钥】
+> 右侧的 `BackupProductKeyDefault` 的值就是 Windows 激活密钥
