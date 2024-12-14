@@ -22,6 +22,7 @@
         "hexo-generator-searchdb": "^1.4.1",
         "hexo-generator-tag": "^2.0.0",
         "hexo-next-giscus": "^1.3.0",
+        "hexo-pangu": "^0.2.3",
         "hexo-renderer-ejs": "^2.0.0",
         "hexo-renderer-marked": "^6.3.0",
         "hexo-renderer-stylus": "^3.0.1",
@@ -33,6 +34,10 @@
         "got": "^14.4.4",
         "semver-regex": "^4.0.5",
         "trim-newlines": "^5.0.0",
-        "highlight.js": "^11.10.0"
+        "highlight.js": "^11.10.0",
+        "cross-spawn": "^7.0.6",
+        "katex": "^0.16.11",
+        "node-fetch": "^3.3.2",
+        "axios": "^1.7.7"
     }
 }
